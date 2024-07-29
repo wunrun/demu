@@ -1,0 +1,1036 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+li {
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  background-color: #fff;
+}
+/* 封面 */
+.hero-back {
+  width: 100%;
+  height: calc(100vh);
+  background: url(./背景1.png) no-repeat 50% 50%;
+ 
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover;
+  position: relative;
+}
+.hero-back .zi{
+  text-align: center;
+  display: block;
+  font-size: 35px;
+  font-family:SimSun;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-top: 20px;
+}
+.hero-back .za{
+  text-align: center;
+  display: block;
+  font-size: 35px;
+  font-family:SimSun;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.hero-back  .ze{
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-family:SimSun;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #fff;
+  padding-top: 30px;
+}
+.hero-back img {
+  width: 45%;
+  position: absolute;
+  top: 230px;
+  bottom: 0;
+  left: 0;
+  right: 50px;
+  margin: auto;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.c1000 {
+  width: 100%;
+  height: 115%;
+  left: 6px;
+  top: -138px;
+  position: absolute;
+  z-index: 6;
+}
+/* 顶部开始 */
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+}
+.header-text{
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  border: 0px solid red;
+  width: 1300px;
+  margin: 0 auto;
+}
+.header{
+  height: 65px;
+}
+.header-middle{
+  width: 100%;
+  height: 65px;
+  /* border: 1px solid red; */
+}
+.header-middle ul a{
+  display: block;
+  float: left;
+  width: 300px;
+  height: 65px;
+  border: 0px solid red;
+  text-align: center;
+  line-height: 65px;
+  font-size: 20px;
+  color: #fff;
+}
+/* 第一部分 */
+.introduc{
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  border: 0px solid red;
+  margin-top: 20px;
+ 
+}
+.introduc .zr{
+  font-family: SimSun;
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 110px;
+   margin-top: 20px;
+  border: 0px solid red;
+  text-align: center;
+}
+.introduc .zt{
+  width: 200px;
+  height: 200px;
+  border: 0px solid black;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-radius: 100%;
+position: relative;
+}
+.introduc .zt img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+}
+.introduc .zy{
+  width: 500px;
+  height: 300px;
+  border: 0px solid red;
+  margin: 0 auto;
+  margin-top: -200px;
+}
+.introduc .zy span{
+  display: block;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+.introduc .zu{
+  width: 200px;
+  height: 100px;
+  border: 0px solid red;
+  margin-left: 100px;
+  margin-top: -60px;
+  position: relative;
+}
+.introduc .zu img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.introduc .zu .a{
+  text-align: center;
+  line-height: 100px;
+  margin-left: 90px;
+}
+/* 加一行 */
+.ccc{
+  width: 1300px;
+  height: 480px;
+  border: 0px solid slateblue;
+  margin: 0 auto;
+}
+.whs span{
+  display: block;
+  font-size: 20px;
+  border:0px solid red;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 云图 */
+#wordcloud{
+  /* width: 245px; */
+  /* height: 245px; */
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
+}
+#wordcloud li {
+  position: absolute;
+  color: #333;
+}
+
+#wordcloud li:nth-child(1) {
+  font-size: 10px;
+  top: 50px;
+  left: 180px;
+  transform: rotate(15deg);
+}
+
+#wordcloud li:nth-child(2) {
+  font-size: 10px;
+  top: 50px;
+  left: 50px;
+  transform: rotate(5deg);
+}
+#wordcloud li:nth-child(3) {
+  font-size: 10px;
+  top: 90px;
+  left: 70px;
+  transform: rotate(0deg);
+}
+#wordcloud li:nth-child(4) {
+  font-size: 10px;
+  top: 70px;
+  left: 80px;
+  transform: rotate(-10deg);
+}
+
+#wordcloud li:nth-child(5) {
+  font-size: 10px;
+  top: 90px;
+  left: 190px;
+  transform: rotate(-15deg);
+}
+#wordcloud li:nth-child(6) {
+  font-size: 10px;
+  top: 140px;
+  left: 5px;
+  transform: rotate(-20deg);
+}
+#wordcloud li:nth-child(7) {
+  font-size: 10px;
+  top: 145px;
+  left: 50px;
+  transform: rotate(-25deg);
+}
+#wordcloud li:nth-child(8) {
+  font-size: 10px;
+  top: 135px;
+  left: 150px;
+  transform: rotate(-30deg);
+}
+#wordcloud li:nth-child(9) {
+  font-size: 10px;
+  top: 130px;
+  left: 160px;
+  transform: rotate(-35deg);
+}
+#wordcloud li:nth-child(10) {
+  font-size: 10px;
+  top: 160px;
+  left: 100px;
+  transform: rotate(-40deg);
+}
+#wordcloud li:nth-child(11) {
+  font-size: 10px;
+  top: 150px;
+  left: 100px;
+  transform: rotate(-40deg);
+}
+
+#wordcloud li:nth-child(12) {
+  font-size: 10px;
+  top: 120px;
+  left: 100px;
+  transform: rotate(-40deg);
+}
+
+#wordcloud li:nth-child(13) {
+  font-size: 10px;
+  top: 135px;
+  left: 100px;
+  transform: rotate(-40deg);
+}
+
+
+.oph{
+  width: 100%;
+  height: 800px;
+  border: 0px solid red;
+  background: url(./whs.png) no-repeat 50% 50%;
+}
+.oph .oi{
+ display: block;
+ font-size: 26px;
+ color: black;
+ text-align: center;
+ font-family: SimSun;
+ font-weight: 700;
+ margin-top: 20px;
+ letter-spacing: 5px;
+}
+.oph .oo{
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: SimSun;
+  font-weight: 700;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+.k1{
+  width: 100%;
+  height: 200px;
+  border: 0px solid salmon;
+  margin-top: 20px;
+}
+.kuang1{
+  width: 400px;
+  height: 200px;
+  border: 1px solid green;
+  float: left;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+.kuang1 span{
+  display: block;
+}
+.kuang1 .c1{
+  font-size: 26px;
+  margin-top: 10px;
+}
+.kuang1 .c2{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.kuang2{
+  width: 400px;
+  height: 200px;
+  border: 1px solid green;
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+.kuang2 span{
+  display: block;
+}
+.kuang2 .c1{
+  font-size: 26px;
+  margin-top: 10px;
+}
+.kuang2 .c2{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+/* 中间 */
+.wenzi{
+  width: 100%;
+  height: 300px;
+  border: 0px solid gold;
+}
+.wenzi .mn{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: Xingkai SC;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.wenzi .mn span{
+  color: #678256;
+  font-size: 40px;
+}
+.wenzi p{
+  display: block;
+  font-size: 30px;
+}
+/* 第二部分 */
+#present{
+  width: 100%;
+  height: 1100px;
+  margin: 0 auto;
+  border: 0px solid red;
+}
+#present i{
+  font-size: 20px;
+}
+.text1{
+   text-align: center;
+   font-size: 20px;
+   margin-top: 20px;
+}
+/* 折线图 */
+.photo1{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0px solid salmon;
+}
+.text2{
+  text-align: center;
+  font-size: 20px;
+}
+/* 柱状图 */
+.photo2{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0px solid green;
+}
+.pie1 {
+  display: inline-block;
+  margin-left: 250px;
+}
+.pie2 {
+  display: inline-block;
+  margin-left: 200px;
+}
+.ppp{
+  font-size: 20px;
+  margin-top: 10px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 教育 */
+.cc{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+.xl{
+  font-size: 20px;
+  margin-top: 20px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 福利 */
+.pho .chart{
+  margin: 0 auto;
+}
+/* 困境 */
+.kunj{
+  width: 100%;
+  height: 800px;
+  border: 0px solid red;
+  background: url(./renmin.jpg) no-repeat 50% 50%;
+}
+.kunj .oi{
+ display: block;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+ font-family: SimSun;
+ font-weight: 700;
+ margin-top: 5px;
+ letter-spacing: 5px;
+}
+.kunj .oo{
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: SimSun;
+  font-weight: 700;
+  margin-top: 50px;
+  letter-spacing: 5px;
+}
+/* 第三部分 */
+
+/* 第四部分 */
+#dense{
+  width: 100%;
+  height: 260px;
+  margin: 0 auto;
+  border: 0px solid red;
+  background: white;
+}
+#dense h2{
+  text-align: center;
+  margin-top: 50px;
+}
+.p11{
+  font-size: 20px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+.p22{
+  text-align: center;
+  font-size: 20px;
+}
+.p33{
+  text-align: center;
+  font-size: 20px;
+}
+.Ex{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0px solid salmon;
+}
+.dir{
+  display: block;
+  width: 60px;
+  height: 20px;
+  background-color: #d1d476;
+  margin: 0 auto;
+}
+/* 中国地图 */
+.mapp{
+  width: 1000px;
+  height: 720px;
+  margin: 0 auto;
+  border: 0px solid salmon;
+  margin-top: 20px;
+}
+/* 工作压力 */
+.h11{
+  text-align: center;
+}
+.p44{
+  font-size: 20px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+.h55{
+  text-align: center;
+  margin-top: 20px;
+}
+.h66{
+  text-align: center;
+}
+.p55{
+  font-size: 20px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+.h77{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+th, td {
+  border: 0px solid black;
+  text-align: center;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.t1{
+  font-size: 20px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+.pressure{
+  width: 600px;
+  /* height: 600px; */
+  border: 0px solid red;
+}
+/* 工作福利待遇 */
+.aaa{
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  border: 0px solid salmon;
+}
+/* 职责划分 */
+.bing{
+  margin-left: 50px;
+  width: 100px;
+  height: 20px;
+  border: 0px solid red;
+  text-align: center;
+  background-color: #d1d476;
+  border-radius: 5%;
+}
+.pie .chart{
+margin: 0 auto;
+}
+.p66{
+  font-size: 20px;
+  text-indent: 40px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 中间图n */
+.xh{
+  width: 100%;
+  height: 1000px;
+  border: 0px solid red;
+  background: url(./xh.jpg)  50% 50%;
+  background-repeat: no-repeat; /* 防止背景图像重复 */
+   background-size: cover; 
+   margin-top: 20px;
+}
+.xh .oi{
+ display: block;
+ font-size: 26px;
+ color: black;
+ text-align: center;
+ font-family: SimSun;
+ font-weight: 700;
+ margin-top: 50px;
+ letter-spacing: 5px;
+}
+.xh .oo{
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: SimSun;
+  font-weight: 700;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+/* (一) */
+.h88{
+  margin-top: 20px;
+  font-family: 400;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.p77{
+  font-size: 20px;
+  margin-top: 20px;
+  text-indent: 40px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.p88{
+  font-size: 20px;
+  text-indent: 40px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.h99{
+  font-size: 20px;
+  margin-top: 30px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.p99{
+  font-size: 20px;
+  font-weight: SimSun;
+  text-indent: 40px;
+  border: 0px solid green;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 激励之力 */
+
+/* 图 */
+.Ex3{
+  display: inline-block;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.time{
+  margin-left: 50px;
+  display: inline-block;
+}
+.timm{
+  width: 500px;
+  height: 500px;
+  border: 0px solid red;
+  /* display: inline-block; */
+float: left;
+margin-left: 200px;
+
+}
+.timm p{
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* 个例 */
+.box  img {
+  width: 100%;
+  /* 垂直对齐方式 */
+  vertical-align: middle;
+}
+
+.box {
+  width: 1300px;
+  height: 247px;
+  margin: 20px auto;
+  /* background-color: pink; */
+}
+
+.box li {
+  /* display: inline-block; */
+  /* 子绝父相 */
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 247px;
+  margin-right: 30px;
+  /* 溢出隐藏 */
+  overflow: hidden;
+}
+
+.box li:last-child {
+  margin-right: 0;
+}
+
+.box .txt {
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 300px;
+  height: auto;
+  padding: 20px 30px;
+  /* 默认情况下，定位的盒子：后来者居上
+      z-index:整数； 取值越大，显示顺序越靠上;z-index的默认值为0
+      注意：z-index要配合定位才生效
+      */
+  z-index: 1;
+  color: #fff;
+  transition: transform 0.5s;
+}
+
+.box .txt h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2em;
+  color: #fff;
+}
+
+.box .txt h5 {
+  margin-bottom: 32px;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.box .txt p {
+  color: #fff;
+  font-size: 14px;
+}
+.box .txt p .iconfont {
+  color: #c7000b;
+  /* 垂直对齐 */
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* 
+1.准备字体图标:先引入样式表；调用类名
+2.渐变背景:书写盒子控制位置；hover显示
+3.图片缩放
+4.文字位移
+*/
+
+/* 渐变背景 */
+.box li a::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* 伪元素属性 */
+  content: '';
+  width: 350px;
+  height: 247px;
+  background-image: linear-gradient(transparent,
+          rgba(0, 0, 0, 0.7));
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.box li:hover a::after {
+  opacity: 1;
+}
+
+/* 图片缩放 */
+.box li .pic img {
+  /* 过渡效果 */
+  /* 过渡配合hover使用,谁变化谁加过渡属性,所有在0.5s完成过渡属性 */
+  transition: all 0.5s;
+}
+
+.box li:hover .pic img {
+  /* 平面缩放 大于1放大，小于1缩小 */
+
+  transform: scale(1.2);
+}
+
+/* 文字效果:hover时向上移动 Y- -50px */
+.box li:hover .txt {
+  /* 使用transform实现元素空间位移效果 */
+  transform: translateY(-50px);
+}
+
+
+/* 三 */
+.hh{
+  margin-top: 26px;
+  border: 0px solid red;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.pa{
+  font-size: 19px;
+  font-family: STSong;
+  margin-top: 20px;
+}
+.pb{
+  font-size: 19px;
+  font-family: STSong;
+  margin-top: 10px;
+}
+.pc{
+  font-size: 19px;
+  font-family: STSong;
+  margin-top: 10px;
+}
+.san{
+  width: 100%;
+  height: 600px;
+  border: 1px solid green;
+  
+
+}
+.loud{
+  width: 600px;
+  height: 600px ;
+  border: 0px solid red;
+  /* float: right; */
+  /* margin: 0 auto; */
+  display: inline-block;
+  /* margin-top: -500px; */
+}
+.left1{
+
+width: 400px;
+height: 600px;
+border: 0px solid red;
+display: inline-block;
+margin-left: 110px;
+float: left;
+}
+.right1{
+  width: 400px;
+  height: 600px;
+  border: 0px solid red;
+  display: inline-block;
+  float: right;
+}
+.zy{
+  display: block;
+  font-size: 20px;
+  font-family: 700;
+  margin-top: 70px;
+}
+.zy1{
+  display: block;
+  font-size: 20px;
+  font-family: 700;
+  margin-top: 150px;
+}
+.zys{
+  display: block;
+  font-size: 20px;
+  font-family: 700;
+  margin-top: 180px;
+}
+.zys1{
+  display: block;
+  font-size: 20px;
+  font-family: 700;
+  margin-top: 150px;
+}
+/* 第五部分 */
+#summarize{
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  border: 0px solid red;
+  background: white;
+}
+.ju{
+  color: #678256;
+  font-family: KaiTi;
+  font-weight: 700;
+  font-size: 35px;
+  text-indent: 30px;
+  border: 0px solid red;
+  width: 1300px;
+  margin: 0 auto;
+}
+.pju{
+  font-size: 20px;
+  font-family: SimSun;
+  text-indent: 40px;
+  margin-top: 5px;
+  border: 0px solid red;
+  width: 1300px;
+  margin: 0 auto;
+}
+/* 团队 */
+.zp{
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* 电影图 */
+.icon-example1 {
+  font-family: 'iconfont';
+  color:#a4ac9f; /* 设置图标颜色为红色 */
+  font-size: 24px; /* 设置图标大小 */
+}
+.icon-example1::before {
+  content: '\e625'; /* 假设这是你要使用的图标的Unicode编码 */
+}
+.icon-example2 {
+  font-family: 'iconfont';
+  color: #bde0a7; /* 设置图标颜色为红色 */
+  font-size: 24px; /* 设置图标大小 */
+}
+.icon-example2::before {
+  content: '\e625'; /* 假设这是你要使用的图标的Unicode编码 */
+}.icon-example3 {
+  font-family: 'iconfont';
+  color: green; /* 设置图标颜色为红色 */
+  font-size: 24px; /* 设置图标大小 */
+}
+.icon-example3::before {
+  content: '\e625'; /* 假设这是你要使用的图标的Unicode编码 */
+}
+.net{
+  width: 1000px;
+  height: 350px;
+  border: 0px solid red;
+  /* position: absolute; */
+  /* float: left; */
+  margin:0 auto;
+  background-color: #e0e7cc6c;
+}
+.text{
+  width: 600px;
+  height: 100px;
+  border: px solid red;
+  margin: 0 auto;
+}
+.xc{
+  font-size: 20px;
+  font-family: SimHei;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.ll{
+  text-align: center;
+  margin-top: 20px;
+}
+.left{
+  width: 300px;
+  height: 200px;
+  border: 0px solid green;
+  position: relative;
+  /* margin-top: 50px; */
+  float: left;
+  margin-left: 150px;
+}
+.aac{
+  display: block;
+  text-align: center;
+}
+.right{
+  width: 300px;
+  height: 200px;
+  border: 0px solid green;
+  position: relative;
+  /* margin-top: 50px; */
+  /* float: right; */
+  float: left;
+  margin-left: 50px;
+  /* margin-top: 20px; */
+}
+.iii{
+  border: 0px solid rebeccapurple;
+}
+.left ul li{
+  float: left;
+  margin-right: 5px;
+}
+.right ul li{
+  float: left;
+  margin-right: 5px;
+}
